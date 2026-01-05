@@ -1,0 +1,28 @@
+#ActorsFilms {
+  margin: 20px 0;
+  .actorsFilms {
+    margin: 20px 0;
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+    img {
+      border-radius: 10px;
+      transition: 0.7s;
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
+    h5 {
+      font-size: 20px;
+      text-align: center;
+      color: black;
+      margin-top: 6px;
+      transition: 0.7s;
+      &:hover {
+        color: rgb(0, 145, 255);
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

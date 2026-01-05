@@ -1,0 +1,170 @@
+#details {
+  margin-top: 25px;
+  .bgr--details {
+    display: flex;
+    padding: 50px 0;
+    img {
+      border-radius: 15px;
+      transition: 0.7s;
+      box-shadow: 0px 0px 12px 3px rgb(184, 184, 184);
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    &__card {
+      margin-left: 50px;
+      p {
+        color: rgb(23, 22, 22);
+      }
+      h4 {
+        i {
+          color: rgba(105, 100, 100, 0.934);
+          font-size: 23px;
+          font-weight: 700;
+          background-color: rgba(239, 241, 241, 0.752);
+          border-radius: 10px;
+        }
+      }
+      h2 {
+        color: white;
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: 600;
+      }
+      p {
+        color: white;
+        font-size: 20px;
+      }
+      &--icons {
+        margin: 15px;
+        display: flex;
+        gap: 20px;
+        &__circle {
+          width: 50px;
+          height: 50px;
+          background-color: #032541;
+          border-radius: 50%;
+          transition: 0.6s;
+          &:hover {
+            transform: scale(1.1);
+            background-color: #054376f3;
+          }
+          a {
+            color: white;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            margin-top: 12px;
+          }
+          .icon {
+            color: white;
+            font-size: 25px;
+          }
+
+          .icon.active {
+            color: yellow;
+          }
+          .icon {
+            color: white;
+            font-size: 25px;
+            transition: color 0.2s ease;
+          }
+
+          .icon.liked {
+            color: red;
+          }
+        }
+        &__btn2 {
+          button {
+            display: flex;
+            gap: 9px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: 0.7s;
+            margin-top: 4px;
+            margin-left: 26px;
+            border: none;
+            background-color: #032541;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.1);
+              background-color: #054376f3;
+            }
+          }
+        }
+      }
+      &--vibe {
+        display: flex;
+        gap: 10px;
+        button {
+          width: 160px;
+          height: 37px;
+          font-size: 16px;
+          border-radius: 25px;
+          transition: 0.7s;
+          margin-top: 14px;
+          margin-left: 26px;
+          border: none;
+          background-color: #032541;
+          color: white;
+          font-weight: 600;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.1);
+            background-color: #054376f3;
+          }
+        }
+        h4 {
+          margin-top: 20px;
+          color: white;
+          font-size: 20px;
+        }
+        &__vote {
+          cursor: pointer;
+          transition: 0.7s;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: black;
+          position: relative;
+          border: 5px solid rgb(82, 133, 6);
+          &:hover {
+            transform: scale(1.1);
+            border-color: rgba(59, 96, 3, 0.868);
+          }
+          h3 {
+            position: absolute;
+            top: 19px;
+            left: 14px;
+          }
+        }
+      }
+      h1 {
+        color: white;
+        font-weight: 800;
+        font-size: 40px;
+        span {
+          color: rgba(171, 170, 170, 0.948);
+          font-weight: 500;
+        }
+      }
+      h3 {
+        color: white;
+      }
+      &--text {
+        display: flex;
+      }
+      &--text2 {
+        margin: 7px 0;
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 100;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+#persons {
+  margin: 20px 0;
+  .persons {
+    display: flex;
+    gap: 30px;
+    img {
+      width: 320px;
+      height: 480px;
+      border-radius: 10px;
+      transition: 0.7s;
+      cursor: pointer;
+      &:hover {
+        filter: blur(4px);
+      }
+    }
+    &--profile {
+      h3 {
+        font-size: 30px;
+        margin-top: 10px;
+        width: 1050px;
+        height: 60px;
+        background-color: rgb(0, 157, 255);
+        color: white;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h2 {
+        margin: 8px 0;
+      }
+      p {
+        line-height: 21px;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 5%;
+        span {
+          color: rgb(0, 110, 255);
+          cursor: pointer;
+          font-weight: 700;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .persons-punkts {
+    text-align: center;
+    width: 1050px;
+    height: 130px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    display: flex;
+    gap: 30px;
+    &__facts {
+      margin-left: 20px;
+      margin-top: 10px;
+      h2 {
+        font-size: 23px;
+        color: black;
+      }
+      p {
+        margin-top: 5px;
+        font-size: 18px;
+        color: black;
+      }
+    }
+  }
+}

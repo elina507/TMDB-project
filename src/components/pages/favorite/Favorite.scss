@@ -1,0 +1,27 @@
+#favorite {
+  padding: 30px 0;
+  .favorite {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    .card {
+      position: relative;
+    }
+    button {
+      position: absolute;
+      padding: 4px 15px;
+      top: 523px;
+      left: 290px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(151, 152, 153);
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: rgb(106, 106, 106);
+      }
+    }
+  }
+}

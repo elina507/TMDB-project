@@ -1,0 +1,89 @@
+#popular {
+  margin-top: 30px;
+  .btns {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    &--buttons {
+      display: flex;
+      gap: 5px;
+      button {
+        padding: 5px 10px;
+        border-radius: 25px;
+        background-color: rgb(9, 168, 168);
+        border: none;
+        transition: 0.5s;
+        &:hover {
+          background-color: #e9e0e0fd;
+          a {
+            color: rgb(9, 168, 168);
+          }
+        }
+        a {
+          font-size: 17px;
+          color: white;
+        }
+      }
+    }
+  }
+  .popular {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 25px;
+    &--card {
+      img {
+        border-radius: 8px;
+        transition: 0.7s;
+        &:hover {
+          transform: scale(0.9);
+        }
+      }
+      &__vote {
+        width: 42px;
+        height: 42px;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        left: 13px;
+        border: 4px solid #21d07a;
+        cursor: pointer;
+        transition: 0.7s;
+        &:hover {
+          transform: scale(1.2);
+        }
+        h3 {
+          color: white;
+          position: absolute;
+          top: 13px;
+          left: 9px;
+          font-size: 14px;
+        }
+      }
+      h1 {
+        margin-left: 10px;
+        margin-top: -20px;
+        font-size: 19px;
+        width: 225px;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.2;
+        // color: white;
+        a {
+          // color: white;
+          transition: 0.7s;
+          &:hover {
+            color: #0328fabb;
+          }
+        }
+      }
+      h2 {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+    }
+  }
+}

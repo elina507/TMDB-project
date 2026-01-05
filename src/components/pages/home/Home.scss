@@ -1,0 +1,55 @@
+#home {
+  padding: 70px 0;
+  margin-top: 20px;
+  #home1 {
+    padding: 40px 0;
+  }
+  .home3 {
+    display: flex;
+    margin: 20px 0;
+    overflow-x: auto;
+    gap: 20px;
+    white-space: nowrap;
+  }
+  .home--div1 {
+    h1 {
+      color: white;
+      font-size: 43px;
+      span {
+        font-size: 32px;
+      }
+    }
+    &__btn {
+      position: relative;
+      display: flex;
+      margin-top: 30px;
+      gap: 10px;
+      input {
+        padding: 14px 540px;
+        border: 3px solid paleturquoise;
+        border-radius: 24px;
+        &::placeholder {
+          font-size: 15px;
+          font-weight: 500;
+          color: black;
+        }
+      }
+      button {
+        border: none;
+        right: 20px;
+        position: absolute;
+        border-radius: 24px;
+        padding: 13px 23px;
+        background-color: #12e4b0f7;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        color: white;
+        transition: 1s;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
