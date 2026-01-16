@@ -5,10 +5,12 @@
     display: flex;
     overflow-x: scroll;
     gap: 20px;
-    &--card{
-        iframe{
-            border-radius: 10px;
-        }
+    &--card {
+      iframe {
+        border-radius: 10px;
+        width: 442px;
+        height: 250px;
+      }
     }
     button {
       color: black;
@@ -19,6 +21,18 @@
       font-weight: 700;
       cursor: pointer;
       color: rgba(12, 4, 98, 0.877);
+    }
+  }
+}
+@media (max-width: 376px) {
+  #video h1 {
+    font-size: 28px;
+  }
+  #video .video .video--card {
+    iframe {
+      border-radius: 10px;
+      width: 372px;
+      height: 205px;
     }
   }
 }

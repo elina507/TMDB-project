@@ -4,7 +4,12 @@ import { NavLink } from "react-router-dom";
 
 const Registration = () => {
   return (
-    <div id="registr">
+    <div
+      id="registr"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="container">
         <h1>Присоединяйтесь сегодня</h1>
         <div className="registr">

@@ -34,8 +34,9 @@ const Persons = () => {
             <img
               src={`https://media.themoviedb.org/t/p/w600_and_h900_face${persons.profile_path}`}
               alt="img"
+              data-aos="zoom-out-right"
             />
-            <div className="persons--profile">
+            <div className="persons--profile" data-aos="zoom-out-left">
               <h1>{persons.name}</h1>
               {persons.biography?.length > 0 ? (
                 <h2>Биография</h2>
@@ -55,8 +56,8 @@ const Persons = () => {
                   {!bio ? "Читать ещё" : "Скрыть"}
                 </span>
               </p>
-              <h3>Персональная информация актёра:</h3>
-              <div className="persons-punkts">
+              <h3 data-aos="zoom-in-up">Персональная информация актёра:</h3>
+              <div className="persons-punkts" data-aos="zoom-in-up">
                 <div className="persons-punkts__facts">
                   <h2>Известность за</h2>
                   <p>{persons.known_for_department}</p>

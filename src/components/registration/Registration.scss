@@ -37,3 +37,98 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  #registr .registr--text1 p {
+    font-size: 13px;
+    color: white;
+    line-height: 21px;
+  }
+  #registr .registr--text2 h3 {
+    color: rgb(222, 221, 221);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 26px;
+  }
+}
+@media (max-width: 768px) {
+  #registr h1 {
+    color: white;
+    font-size: 24px;
+  }
+  #registr .registr--text1 p {
+    font-size: 8px;
+    color: white;
+    line-height: 14px;
+  }
+  #registr .registr--text2 h3 {
+    color: rgb(222, 221, 221);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+  }
+  #registr .registr--text1 button {
+    margin-top: 12px;
+    padding: 9px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  #registr h1 {
+    color: white;
+    font-size: 20px;
+  }
+  #registr .registr--text1 p {
+    font-size: 7px;
+    color: white;
+    line-height: 10px;
+  }
+  #registr .registr--text2 h3 {
+    color: rgb(222, 221, 221);
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+  }
+  #registr .registr--text1 button {
+    margin-top: 12px;
+    padding: 6px 6px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 415px) {
+  #registr h1 {
+    color: white;
+    font-size: 19px;
+  }
+  #registr .registr--text1 p {
+    font-size: 7px;
+    color: white;
+    line-height: 10px;
+    width: 184px;
+  }
+}
+
+@media (max-width: 320px) {
+  .registr {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  #registr .registr--text1 p {
+    font-size: 12px;
+    color: white;
+    line-height: 15px;
+  }
+  #registr .registr--text2 h3 {
+    color: rgb(222, 221, 221);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 18px;
+  }
+}

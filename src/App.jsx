@@ -15,6 +15,13 @@ import Favorite from "./components/pages/favorite/Favorite";
 import { MovieContext } from "./context";
 import TMDB from "./components/pages/TMDB/TMDB";
 import Busennes from "./components/pages/businnes/Busennes";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+AOS.init({
+  duration: 800, 
+  once: true, 
+});
 
 const App = () => {
   const routes = [

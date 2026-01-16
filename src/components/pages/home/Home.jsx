@@ -43,13 +43,13 @@ const Home = () => {
       >
         <div id="home1" className="home--div1">
           <div className="container">
-            <h1>
+            <h1 data-aos="fade-right">
               Добро пожаловать. <br />{" "}
               <span>
                 Миллионы фильмов, сериалов и людей. Исследуйте сейчас.
               </span>
             </h1>
-            <div className="home--div1__btn">
+            <div className="home--div1__btn" data-aos="fade-left">
               <input
                 type="text"
                 placeholder="Найти фильм,сериал..."
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Moviecard/>
+      <Moviecard />
       <Registration />
     </>
   );

@@ -3,8 +3,9 @@ import "./TMDB.scss";
 
 const TMDB = () => {
   return (
-    <div id="tmdb"
-    style={{
+    <div
+      id="tmdb"
+      style={{
         position: "relative",
         width: "100%",
         height: "100vh",
@@ -12,6 +13,7 @@ const TMDB = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
+      data-aos="flip-down"
     >
       <div className="container">
         <div className="tmdb">

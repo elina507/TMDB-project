@@ -7,7 +7,7 @@ const Registrdetails = () => {
     <div id="details">
       <div className="container">
         <div className="details">
-          <div className="details--punkt">
+          <div className="details--punkt" data-aos = "fade-right">
             <div className="h1">
               <h1>Преимущества членства</h1>
             </div>
@@ -47,7 +47,7 @@ const Registrdetails = () => {
               </p>
             </div>
           </div>
-          <div className="details--inputs">
+          <div className="details--inputs" data-aos = "fade-left">
             <h1>Зарегистрировать учётную запись</h1>
             <p>
               Создание учётной записи свободно и просто. Заполните форму ниже,

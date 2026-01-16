@@ -28,6 +28,7 @@ const VideoDetails = ({ videoId, onclose }) => {
             <>
               <div className="video--card">
                 <iframe
+                  data-aos="zoom-in"
                   width="442"
                   height="250"
                   src={`https://www.youtube.com/embed/${el.key}`}

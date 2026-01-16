@@ -5,12 +5,13 @@ import { FaSearch } from "react-icons/fa";
 import "./Header.scss";
 import { MdDarkMode } from "react-icons/md";
 import { MovieContext } from "../../../context";
-import { IoSunny } from "react-icons/io5";
+import { IoMenu, IoSunny } from "react-icons/io5";
 
 const Header = () => {
   const nav = useNavigate();
   const [movieName, setMovieName] = useState("");
   const { dark, setDark, language, setLanguage } = useContext(MovieContext);
+
   const searchMovie = () => {
     if (movieName.trim() === "") {
       alert("Напишите название фильма, сериала!");
@@ -21,19 +22,37 @@ const Header = () => {
   };
 
   return (
-    <header id="header">
+    <header id="header" data-aos="fade-down">
       <div className="container">
         <div className="header">
           <div className="header--nav">
-            <img src={logo} alt="img" width={210} />
-            <NavLink to={"/"}>Главное</NavLink>
-            <NavLink to={"/films"}>Фильмы</NavLink>
-            <NavLink to={"/serials"}>Сериалы</NavLink>
-            <NavLink to={"/actors"}>Актёры</NavLink>
-            <NavLink to={"/favorite"}>Избранные</NavLink>
-            <Link to="/" onClick={() => setDark(!dark)}>
+            <img src={logo} alt="img" data-aos="fade-right" />
+            <NavLink to={"/"} data-aos="flip-up">
+              Главное
+            </NavLink>
+            <NavLink to={"/films"} data-aos="flip-up">
+              Фильмы
+            </NavLink>
+            <NavLink to={"/serials"} data-aos="flip-up">
+              Сериалы
+            </NavLink>
+            <NavLink to={"/actors"} data-aos="flip-up">
+              Актёры
+            </NavLink>
+            <NavLink to={"/favorite"} data-aos="flip-up">
+              Избранные
+            </NavLink>
+            <NavLink
+              className="dark"
+              to="/"
+              onClick={() => setDark(!dark)}
+              data-aos="flip-up"
+            >
               {dark ? <MdDarkMode /> : <IoSunny />}
-            </Link>
+            </NavLink>
+            <div className="icon">
+              <IoMenu />
+            </div>
           </div>
           <div className="header--search">
             <select onChange={(e) => setLanguage(e.target.value)}>
@@ -42,6 +61,7 @@ const Header = () => {
             </select>
             <div className="header--search__form">
               <input
+                data-aos="fade-left"
                 type="text"
                 placeholder="Найти фильм,сериал..."
                 onChange={(e) => setMovieName(e.target.value)}

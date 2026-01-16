@@ -1,6 +1,7 @@
 #serials {
   padding: 20px 0;
   margin-bottom: 20px;
+  margin-top: 30px;
   .serials {
     display: flex;
     align-items: center;
@@ -64,5 +65,131 @@
         }
       }
     }
+  }
+}
+@media (max-width: 1497px) {
+  #serials .serials {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  #serials .serials--card img {
+    border-radius: 9px 9px 0 0;
+    width: 275px;
+    height: 394px;
+  }
+  #serials .serials--card {
+    position: relative;
+    margin-top: 20px;
+    width: 306px;
+    height: 522px;
+  }
+  #serials .serials--card__vote {
+    position: absolute;
+    left: 13px;
+    top: 369px;
+  }
+}
+@media (max-width: 821px) {
+  #serials button {
+    margin-top: 28px;
+    padding: 9px 53px;
+  }
+  #serials .serials {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  #serials .serials--card {
+    position: relative;
+    margin-top: 20px;
+    width: 286px;
+    height: 522px;
+  }
+}
+
+@media (max-width: 431px) {
+  #serials button {
+    margin-top: 16px;
+    padding: 9px 53px;
+  }
+  #serials .serials {
+    gap: 12px;
+  }
+}
+@media (max-width: 415px) {
+  #serials button {
+    margin-top: 16px;
+    padding: 9px 53px;
+  }
+}
+@media (max-width: 376px) {
+  #serials h1 {
+    font-size: 25px;
+  }
+  #serials .serials--card img {
+    border-radius: 9px 9px 0 0;
+    width: 260px;
+    height: 376px;
+  }
+  #serials .serials--card {
+    width: 288px;
+    height: 491px;
+  }
+  #serials .serials--card__vote {
+    position: absolute;
+    left: 13px;
+    top: 350px;
+  }
+  #serials .serials {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 12px;
+  }
+  #serials button {
+    margin-top: 21px;
+    padding: 6px 44px;
+    background-color: #21d07a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 345px) {
+  #serials .serials--card img {
+    border-radius: 9px 9px 0 0;
+    width: 223px;
+    height: 322px;
+  }
+  #serials .serials--card {
+    width: 248px;
+    height: 422px;
+  }
+  #serials .serials--card__vote {
+    position: absolute;
+    left: 17px;
+    top: 299px;
+    width: 38px;
+    height: 38px;
+  }
+  #serials .serials--card__vote h3 {
+    position: absolute;
+    top: 11px;
+    left: 9px;
+  }
+  #serials button {
+    margin-top: 13px;
+    padding: 6px 37px;
+    background-color: #21d07a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
   }
 }

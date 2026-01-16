@@ -29,7 +29,7 @@ const Actors = () => {
         <div className="actors">
           {actors.map((el) =>
             el.profile_path ? (
-              <div className="actors--card">
+              <div className="actors--card" data-aos="flip-right">
                 <Link
                   key={el.id}
                   to={`/moviedetails/actors-detail/${el.id}`}

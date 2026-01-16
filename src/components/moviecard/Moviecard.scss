@@ -35,6 +35,7 @@
       img {
         border-radius: 8px;
         transition: 0.7s;
+        width: 250px;
         &:hover {
           transform: scale(0.9);
         }
@@ -85,5 +86,202 @@
         font-weight: 500;
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  #popular .popular {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+  #popular .btns h1 {
+    font-size: 28px;
+  }
+  #popular .btns--buttons button {
+    padding: 3px 8px;
+    border-radius: 25px;
+    background-color: rgb(9, 168, 168);
+    border: none;
+    transition: 0.5s;
+  }
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 225px;
+  }
+}
+
+@media (max-width: 480px) {
+  #popular .popular {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 1px;
+  }
+  #popular .btns h1 {
+    font-size: 24px;
+  }
+  #popular .btns--buttons button {
+    padding: 3px 7px;
+    border-radius: 25px;
+    background-color: rgb(9, 168, 168);
+    border: none;
+    transition: 0.5s;
+  }
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 200px;
+  }
+  #popular .popular--card h1 {
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  #popular .popular {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+  }
+  #popular .popular .popular--card {
+    width: 160px;
+  }
+  #popular .btns h1 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  #popular .btns--buttons button {
+    padding: 3px 7px;
+    border-radius: 25px;
+    background-color: rgb(9, 168, 168);
+    border: none;
+    transition: 0.5s;
+    a {
+      font-size: 10px;
+    }
+  }
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 160px;
+  }
+  #popular .popular--card h1 {
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 12px;
+    width: 155px;
+  }
+  #popular .popular--card h2 {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #popular .popular--card__vote {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 13px;
+    border: 3px solid #21d07a;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  #popular .popular--card__vote h3 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 415px) {
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 190px;
+  }
+  #popular .popular .popular--card {
+    width: 210px;
+  }
+}
+
+@media (max-width: 376px) {
+  #popular .popular {
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+  #popular .btns h1 {
+    font-size: 19px;
+  }
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 184px;
+  }
+  #popular .popular .popular--card {
+    width: 200px;
+  }
+  #popular .popular--card h1 {
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 14px;
+    width: 150px;
+  }
+  #popular .popular--card h2 {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 361px) {
+  #popular .btns h1 {
+    font-size: 18px;
+  }
+  #popular .popular--card h1 {
+    margin-left: 5px;
+    margin-top: -24px;
+    font-size: 13px;
+    width: 155px;
+  }
+}
+
+@media (max-width: 345px) {
+  #popular .btns h1 {
+    font-size: 15px;
+  }
+  #popular .popular--card img {
+    border-radius: 8px;
+    transition: 0.7s;
+    width: 170px;
+  }
+  #popular .popular--card h2 {
+    margin-left: 6px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #popular .popular--card__vote {
+    width: 38px;
+    height: 38px;
+  }
+  #popular .popular--card__vote h3 {
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    font-size: 14px;
   }
 }

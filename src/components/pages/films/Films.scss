@@ -1,4 +1,7 @@
 #films {
+  h1 {
+    font-size: 30px;
+  }
   padding: 20px 0;
   .films {
     display: flex;
@@ -15,11 +18,14 @@
       border: 1px solid rgba(0, 0, 0, 0.08);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: 0.7s;
+      overflow: hidden;
       // &:hover {
       //   transform: scale(1.1);
       // }
       img {
         border-radius: 9px 9px 0 0;
+        width: 320px;
+        height: 450px;
       }
       h1 {
         margin-left: 10px;
@@ -65,6 +71,126 @@
     border-radius: 7px;
     color: white;
     font-size: 24px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1470px) {
+  #films .films {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  #films .films--card img {
+    border-radius: 9px 9px 0 0;
+    width: 275px;
+    height: 394px;
+  }
+  #films .films--card {
+    position: relative;
+    margin-top: 20px;
+    width: 306px;
+    height: 493px;
+  }
+  #films .films--card__vote {
+    position: absolute;
+    left: 13px;
+    top: 369px;
+  }
+}
+@media (max-width: 821px) {
+  #films button {
+    margin-top: 28px;
+    padding: 9px 53px;
+  }
+  #films .films {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 6px;
+  }
+}
+@media (max-width: 431px) {
+  #films button {
+    margin-top: 16px;
+    padding: 9px 53px;
+  }
+  #films .films {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 6px;
+  }
+}
+@media (max-width: 415px) {
+  #films button {
+    margin-top: 16px;
+    padding: 9px 53px;
+  }
+}
+@media (max-width: 376px) {
+  #films h1 {
+    font-size: 25px;
+  }
+  #films .films--card img {
+    border-radius: 9px 9px 0 0;
+    width: 260px;
+    height: 376px;
+  }
+  #films .films--card {
+    width: 288px;
+    height: 491px;
+  }
+  #films .films--card__vote {
+    position: absolute;
+    left: 13px;
+    top: 350px;
+  }
+  #films .films {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 2px;
+  }
+  #films button {
+    margin-top: 21px;
+    padding: 6px 44px;
+    background-color: #21d07a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 345px) {
+  #films .films--card img {
+    border-radius: 9px 9px 0 0;
+    width: 223px;
+    height: 322px;
+  }
+  #films .films--card {
+    width: 248px;
+    height: 422px;
+  }
+  #films .films--card__vote {
+    position: absolute;
+    left: 17px;
+    top: 299px;
+    width: 38px;
+    height: 38px;
+  }
+  #films .films--card__vote h3 {
+    position: absolute;
+    top: 11px;
+    left: 9px;
+  }
+  #films button {
+    margin-top: 13px;
+    padding: 6px 37px;
+    background-color: #21d07a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 21px;
     cursor: pointer;
   }
 }

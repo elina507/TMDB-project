@@ -29,7 +29,7 @@ const ActorsDetails = ({ kinoId }) => {
           <h1>Актёры:</h1>
           <div className="actors1">
             {actors.map((el) => (
-              <div className="actors1--card" key={el.id}>
+              <div className="actors1--card" key={el.id} data-aos="flip-down">
                 <Link to={`/moviedetails/actors-detail/${el.id}`}>
                   <img
                     src={

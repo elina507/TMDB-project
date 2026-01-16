@@ -23,7 +23,7 @@
         margin: 9px 0;
         text-align: center;
       }
-      h5{
+      h5 {
         color: rgb(77, 75, 75);
         font-size: 16px;
         font-weight: 300;
@@ -35,5 +35,19 @@
         height: 310px;
       }
     }
+  }
+}
+@media (max-width: 376px) {
+  #actors1 h1 {
+    font-size: 28px;
+  }
+  #actors1 .actors1--card img {
+    border-radius: 10px 10px 0 0;
+    width: 241px;
+    height: 288px;
+  }
+  #actors1 .actors1--card {
+    width: 241px;
+    height: 377px;
   }
 }

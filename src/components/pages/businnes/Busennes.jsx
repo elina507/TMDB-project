@@ -13,18 +13,18 @@ import freecast from "../../../assets/images/freecast.svg";
 import hypelist from "../../../assets/images/hypelist.png";
 import play from "../../../assets/images/play.png";
 import kt from "../../../assets/images/kt.svg";
-import boxd from "../../../assets/images/boxd.svg"
-import never from "../../../assets/images/never.svg"
-import plex from "../../../assets/images/plex.svg"
-import quickline from "../../../assets/images/quickline.svg"
-import trakt from "../../../assets/images/trakt.svg"
-import ugreen from "../../../assets/images/ugreen.svg"
-import vid from "../../../assets/images/vidangel.svg"
-import tvnu from "../../../assets/images/tvnu.png"
+import boxd from "../../../assets/images/boxd.svg";
+import never from "../../../assets/images/never.svg";
+import plex from "../../../assets/images/plex.svg";
+import quickline from "../../../assets/images/quickline.svg";
+import trakt from "../../../assets/images/trakt.svg";
+import ugreen from "../../../assets/images/ugreen.svg";
+import vid from "../../../assets/images/vidangel.svg";
+import tvnu from "../../../assets/images/tvnu.png";
 
 const Busennes = () => {
   return (
-    <div id="businnes">
+    <div id="businnes" data-aos="zoom-in">
       <div className="container">
         <div className="businnes">
           <h3>API for Business</h3>
@@ -43,7 +43,7 @@ const Busennes = () => {
             <br />
             and breadth of data is unmatched.
           </p>
-          <div className="texts">
+          <div className="texts" data-aos="fade-right">
             <div className="text">
               <img src={img1} alt="img1" />
               <p>
@@ -61,7 +61,7 @@ const Busennes = () => {
               </p>
             </div>
           </div>
-          <div className="texts">
+          <div className="texts" data-aos="fade-left">
             <div className="text">
               <img src={img3} alt="img3" />
               <p>
@@ -81,23 +81,23 @@ const Busennes = () => {
           </div>
           <h2>Trusted by These Lovely Brands</h2>
           <div className="images">
-            <img src={studios} alt="studios" />
-            <img src={chili} alt="chili" />
-            <img src={clix} alt="clix" />
-            <img src={epam} alt="epam" />
-            <img src={filmin} alt="filmin" />
-            <img src={freecast} alt="freecast" />
-            <img src={hypelist} alt="hypelist" />
-            <img src={play} alt="play" />
-            <img src={kt} alt="kt" />
-            <img src={boxd} alt="boxd" />
-            <img src={never} alt="never" />
-            <img src={plex} alt="plex" />
-            <img src={quickline} alt="quickline" />
-            <img src={trakt} alt="trakt" />
-            <img src={ugreen} alt="ugreen" />
-            <img src={vid} alt="vidangel" />
-            <img src={tvnu} alt="tvnu" />
+            <img src={studios} alt="studios" data-aos="zoom-out" />
+            <img src={chili} alt="chili" data-aos="zoom-out" />
+            <img src={clix} alt="clix" data-aos="zoom-out" />
+            <img src={epam} alt="epam" data-aos="zoom-out" />
+            <img src={filmin} alt="filmin" data-aos="zoom-out" />
+            <img src={freecast} alt="freecast" data-aos="zoom-out" />
+            <img src={hypelist} alt="hypelist" data-aos="zoom-out" />
+            <img src={play} alt="play" data-aos="zoom-out" />
+            <img src={kt} alt="kt" data-aos="zoom-out" />
+            <img src={boxd} alt="boxd" data-aos="zoom-out" />
+            <img src={never} alt="never" data-aos="zoom-out" />
+            <img src={plex} alt="plex" data-aos="zoom-out" />
+            <img src={quickline} alt="quickline" data-aos="zoom-out" />
+            <img src={trakt} alt="trakt" data-aos="zoom-out" />
+            <img src={ugreen} alt="ugreen" data-aos="zoom-out" />
+            <img src={vid} alt="vidangel" data-aos="zoom-out" />
+            <img src={tvnu} alt="tvnu" data-aos="zoom-out" />
           </div>
         </div>
       </div>

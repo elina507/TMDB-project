@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { api_key } from "../../../API/api";
-import "./Serials.scss"
+import "./Serials.scss";
 import { Link } from "react-router-dom";
 
 const Serials = () => {
@@ -22,9 +22,10 @@ const Serials = () => {
     <>
       <div id="serials">
         <div className="container">
+          <h1>Популярные сериалы</h1>
           <div className="serials">
             {serials.map((el) => (
-              <div className="serials--card">
+              <div className="serials--card" data-aos="zoom-out">
                 <Link to={`/moviedetails/${el.id}`}>
                   <img
                     src={

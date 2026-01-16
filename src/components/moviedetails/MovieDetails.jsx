@@ -51,8 +51,9 @@ const MovieDetails = () => {
                 src={`https://image.tmdb.org/t/p/w500${details.poster_path}`}
                 alt="img"
                 width={370}
+                data-aos="fade-right"
               />
-              <div className="bgr--details__card">
+              <div className="bgr--details__card" data-aos="fade-left">
                 <div className="bgr--details__card--text">
                   <h1>
                     {details.original_title}{" "}
@@ -70,18 +71,26 @@ const MovieDetails = () => {
                 </div>
                 <div className="bgr--details__card--vibe">
                   <div className="bgr--details__card--vibe__vote">
-                    <h3>{Math.round(details.vote_average * 10)}%</h3>
+                    <h3 data-aos="flip-right">
+                      {Math.round(details.vote_average * 10)}%
+                    </h3>
                   </div>
                   <h4>Рейтинг</h4>
-                  <button>What's your Vibe?</button>
+                  <button data-aos="flip-right">What's your Vibe?</button>
                 </div>
                 <div className="bgr--details__card--icons">
-                  <div className="bgr--details__card--icons__circle">
+                  <div
+                    className="bgr--details__card--icons__circle"
+                    data-aos="flip-right"
+                  >
                     <a href="#">
                       <IoMenu className="icon" />
                     </a>
                   </div>
-                  <div className="bgr--details__card--icons__circle">
+                  <div
+                    className="bgr--details__card--icons__circle"
+                    data-aos="flip-right"
+                  >
                     <a
                       href="#"
                       onClick={(e) => {
@@ -93,7 +102,10 @@ const MovieDetails = () => {
                     </a>
                   </div>
 
-                  <div className="bgr--details__card--icons__circle">
+                  <div
+                    className="bgr--details__card--icons__circle"
+                    data-aos="flip-right"
+                  >
                     <a
                       href="#"
                       onClick={(e) => {

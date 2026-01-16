@@ -18,14 +18,14 @@ const ActorsFilms = ({ filmsId }) => {
   }
   useEffect(() => {
     getActorsFilms(api_key);
-  },[language]);
+  }, [language]);
 
   return (
     <div id="ActorsFilms">
       <h1>Известность за:</h1>
       <div className="actorsFilms">
         {actorsFilms.map((el) => (
-          <div className="actorsFilms--card">
+          <div className="actorsFilms--card" data-aos="zoom-in">
             <Link to={`/moviedetails/${el.id}`}>
               <img
                 src={

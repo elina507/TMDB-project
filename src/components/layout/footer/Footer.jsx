@@ -5,11 +5,11 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" data-aos="fade-up">
       <div className="container">
         <div className="footer">
           <div className="footer--div1">
-            <img src={logo1} alt="img" width={130} />
+            <img src={logo1} alt="img" />
             <button>
               <NavLink to={"/registration"}>ВСТУПИТЬ В СООБЩЕСТВО</NavLink>
             </button>

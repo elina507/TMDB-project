@@ -11,7 +11,7 @@
       position: absolute;
       padding: 4px 15px;
       top: 523px;
-      left: 290px;
+      left: 250px;
       border: none;
       border-radius: 5px;
       background-color: rgb(151, 152, 153);
@@ -23,5 +23,46 @@
         background-color: rgb(106, 106, 106);
       }
     }
+  }
+}
+@media (max-width: 1024px) {
+  #favorite .favorite {
+    gap: 3px;
+  }
+  #films .films--card img {
+    border-radius: 9px 9px 0 0;
+    width: 308px;
+    height: 435px;
+  }
+  #films .films--card {
+    position: relative;
+    margin-top: 20px;
+    width: 306px;
+    height: 554px;
+  }
+  #favorite .favorite button {
+    position: absolute;
+    padding: 4px 15px;
+    top: 508px;
+    left: 241px;
+  }
+}
+@media (max-width: 376px) {
+  #films .films--card img {
+    border-radius: 9px 9px 0 0;
+    width: 260px;
+    height: 370px;
+  }
+  #films .films--card {
+    position: relative;
+    margin-top: 20px;
+    width: 290px;
+    height: 505px;
+  }
+  #favorite .favorite button {
+    position: absolute;
+    padding: 4px 15px;
+    top: 442px;
+    left: 228px;
   }
 }

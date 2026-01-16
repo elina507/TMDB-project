@@ -8,6 +8,8 @@
       transition: 0.7s;
       box-shadow: 0px 0px 12px 3px rgb(184, 184, 184);
       cursor: pointer;
+      width: 370px;
+      height: 540px;
       &:hover {
         transform: scale(1.1);
       }
@@ -166,5 +168,393 @@
         font-weight: 100;
       }
     }
+  }
+}
+@media (max-width: 900px) {
+  #details .bgr--details img {
+    height: 520px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 36px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 52px;
+    height: 52px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 16px;
+    left: 11px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 46px;
+    height: 46px;
+    font-size: 5px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 19px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 22px;
+  }
+  #details .bgr--details__card p {
+    color: white;
+    font-size: 17px;
+  }
+}
+@media (max-width: 821px) {
+  #details .bgr--details img {
+    height: 500px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 33px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 48px;
+    height: 48px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 14px;
+    left: 8px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 42px;
+    height: 42px;
+  }
+  #details .bgr--details__card--icons__circle .icon {
+    font-size: 20px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 17px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 21px;
+  }
+  #details .bgr--details__card p {
+    color: white;
+    font-size: 14px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  #details .bgr--details img {
+    height: 480px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 31px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 44px;
+    height: 44px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    font-size: 18px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 14px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 40px;
+    height: 40px;
+  }
+  #details .bgr--details__card--icons__circle .icon {
+    font-size: 19px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 16px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 20px;
+  }
+  #details .bgr--details__card p {
+    background-color: rgba(239, 241, 241, 0.752);
+    color: white;
+    font-size: 13px;
+    color: rgba(105, 100, 100, 0.934);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 4px;
+  }
+}
+@media (max-width: 721px) {
+  #details .bgr--details img {
+    height: 460px;
+    width: 360px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 29px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 42px;
+    height: 42px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    font-size: 18px;
+  }
+  #details .bgr--details__card {
+    margin-left: 30px;
+  }
+  #details .bgr--details__card--vibe h4 {
+    margin-top: 14px;
+    color: white;
+    font-size: 18px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 13px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 37px;
+    height: 37px;
+  }
+  #details .bgr--details__card--icons__circle .icon {
+    font-size: 17px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 15px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 19px;
+  }
+  #details .bgr--details__card p {
+    background-color: rgba(239, 241, 241, 0.752);
+    color: white;
+    font-size: 12px;
+    color: rgba(105, 100, 100, 0.934);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 4px;
+  }
+  #details .bgr--details__card--vibe button {
+    width: 151px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 25px;
+    transition: 0.7s;
+    margin-top: 9px;
+    margin-left: 6px;
+  }
+}
+@media (max-width: 661px) {
+  #details .bgr--details img {
+    height: 440px;
+    width: 340px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 26px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 40px;
+    height: 40px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    font-size: 18px;
+  }
+  #details .bgr--details__card {
+    margin-left: 25px;
+  }
+  #details .bgr--details__card--vibe h4 {
+    margin-top: 14px;
+    color: white;
+    font-size: 17px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 13px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 34px;
+    height: 34px;
+  }
+  #details .bgr--details__card--icons__circle .icon {
+    font-size: 15px;
+    margin-top: -3px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 14px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 17px;
+  }
+  #details .bgr--details__card p {
+    background-color: rgba(239, 241, 241, 0.752);
+    color: white;
+    font-size: 11px;
+    color: rgba(105, 100, 100, 0.934);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 3px;
+    line-height: 13px;
+  }
+  #details .bgr--details__card--vibe button {
+    width: 151px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 25px;
+    transition: 0.7s;
+    margin-top: 9px;
+    margin-left: 6px;
+  }
+}
+@media (max-width: 541px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      margin-left: 70px;
+    }
+  }
+  #details .bgr--details__card h1 {
+    font-size: 29px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 17px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 47px;
+    height: 47px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 13px;
+    left: 9px;
+    font-size: 16px;
+  }
+  #details .bgr--details__card--vibe h4 {
+    margin-top: 14px;
+    color: white;
+    font-size: 20px;
+  }
+  #details .bgr--details__card--vibe button {
+    width: 157px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 25px;
+    transition: 0.7s;
+    margin-top: 11px;
+    margin-left: 18px;
+  }
+  #details .bgr--details__card--icons__circle {
+    width: 40px;
+    height: 40px;
+  }
+  #details .bgr--details__card--icons__circle .icon {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  #details .bgr--details__card h4 i {
+    font-size: 17px;
+  }
+  #details .bgr--details__card h2 {
+    font-size: 21px;
+  }
+  #details .bgr--details__card p {
+    background-color: rgba(239, 241, 241, 0.752);
+    color: white;
+    font-size: 13px;
+    color: rgba(105, 100, 100, 0.934);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 3px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 431px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      margin-left: 20px;
+    }
+  }
+}
+@media (max-width: 415px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      margin-left: 14px;
+    }
+  }
+  #details .bgr--details__card h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 413px) {
+  #details .bgr--details__card h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 376px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 361px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #details .bgr--details img {
+    height: 427px;
+    width: 300px;
+  }
+}
+@media (max-width: 345px) {
+  .bgr--details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #details .bgr--details img {
+    height: 427px;
+    width: 300px;
+  }
+  #details .bgr--details__card h1 {
+    font-size: 25px;
+  }
+  #details .bgr--details__card h3 {
+    font-size: 12px;
+  }
+  #details .bgr--details__card--vibe__vote {
+    width: 35px;
+    height: 29px;
+  }
+  #details .bgr--details__card--vibe__vote h3 {
+    position: absolute;
+    top: 9px;
+    left: 5px;
+  }
+  #details .bgr--details__card--vibe h4 {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+  }
+  #details .bgr--details__card--vibe button {
+    width: 153px;
+    height: 33px;
+    font-size: 13px;
+    border-radius: 25px;
+    transition: 0.7s;
+    margin-top: 4px;
+    margin-left: 15px;
   }
 }

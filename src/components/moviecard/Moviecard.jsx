@@ -23,7 +23,7 @@ const Moviecard = () => {
     <>
       <div id="popular">
         <div className="container">
-          <div className="btns">
+          <div className="btns"data-aos = "fade-down">
             <h1>В тренде</h1>
             <div className="btns--buttons">
               <button>
@@ -45,7 +45,7 @@ const Moviecard = () => {
                         : film
                     }
                     alt={el.title}
-                    width={250}
+                    data-aos="flip-left"
                   />
                 </Link>
 

@@ -8,7 +8,7 @@
       text-align: center;
     }
     h2 {
-     margin-top: 360px;
+      margin-top: 360px;
       font-size: 45px;
       text-align: center;
     }
@@ -18,5 +18,73 @@
       text-align: center;
       line-height: 20px;
     }
+  }
+}
+@media (max-width: 800px) {
+  #tmdb .tmdb h1 {
+    font-size: 129px;
+    font-family: cursive;
+    text-align: center;
+  }
+  #tmdb .tmdb h2 {
+    margin-top: 311px;
+    font-size: 40px;
+    text-align: center;
+  }
+  #tmdb .tmdb p {
+    font-size: 13px;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #tmdb .tmdb h1 {
+    font-size: 101px;
+    font-family: cursive;
+    text-align: center;
+  }
+  #tmdb .tmdb h2 {
+    margin-top: 300px;
+    font-size: 33px;
+    text-align: center;
+  }
+  #tmdb .tmdb p {
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 16px;
+  }
+}
+@media (max-width: 400px) {
+  #tmdb .tmdb h1 {
+    font-size: 73px;
+    font-family: cursive;
+    text-align: center;
+  }
+}
+#tmdb .tmdb p {
+  font-size: 13px;
+  margin-top: 11px;
+  text-align: center;
+  line-height: 15px;
+}
+@media (max-width: 320px) {
+  #tmdb .tmdb h1 {
+    font-size: 62px;
+    font-family: cursive;
+    text-align: center;
+  }
+  #tmdb .tmdb h2 {
+    margin-top: 9px;
+    font-size: 26px;
+    text-align: center;
+  }
+  #tmdb .tmdb p {
+    font-size: 11px;
+    margin-top: 11px;
+    text-align: center;
+    line-height: 12px;
   }
 }
